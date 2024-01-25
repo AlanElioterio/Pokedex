@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- global -->
     <link rel='stylesheet' href="./css/global.css"> 
+    <link rel='stylesheet' href="./css/pokemon.css"> 
     <title>Pokédex</title>
 </head>
 
@@ -13,122 +14,17 @@
         <h1 class="titulo">Pokédex</h1>
 
         <ul id='lista-de-pokemons' class="lista-de-pokemons">
-            <li class="pokemon">
-                <div class="infos">
-                    <span class="nome">Articuno</span>
-                    <span class="numero">#144</span>
-                </div>
-                
-                
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
-
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg" alt="Articuno">
-                </div>
-                
-            </li>
-
-
-            <li class="pokemon">
-                <div class="infos">
-                    <span class="nome">Articuno</span>
-                    <span class="numero">#144</span>
-                </div>
-                
-                
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
-
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg" alt="Articuno">
-                </div>
-                
-            </li>
-
-
-            <li class="pokemon">
-                <div class="infos">
-                    <span class="nome">Articuno</span>
-                    <span class="numero">#144</span>
-                </div>
-                
-                
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
-
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg" alt="Articuno">
-                </div>
-                
-            </li>
-
-
-            <li class="pokemon">
-                <div class="infos">
-                    <span class="nome">Articuno</span>
-                    <span class="numero">#144</span>
-                </div>
-                
-                
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
-
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg" alt="Articuno">
-                </div>
-                
-            </li>
-
-
-            <li class="pokemon">
-                <div class="infos">
-                    <span class="nome">Articuno</span>
-                    <span class="numero">#144</span>
-                </div>
-                
-                
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
-
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg" alt="Articuno">
-                </div>
-                
-            </li>
-
-
-            <li class="pokemon">
-                <div class="infos">
-                    <span class="nome">Articuno</span>
-                    <span class="numero">#144</span>
-                </div>
-                
-                
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
-
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg" alt="Articuno">
-                </div>
-                
-            </li>
-            
         </ul>
+
+        <div class="pagination">
+            <button id="btn_loadpokemon" type="button">
+                Carregar Mais
+            </button>
+        </div>
+        
     </section>
 </body>
-
+<script src="./script/pokemon-model.js"></script>
+<script src="./script/poke-api.js"></script>
 <script src="./script/main.js"></script>
 </html>
