@@ -114,6 +114,8 @@
     scale: 105%;
     cursor: pointer;
     filter: brightness(106%);
+    transform: perspective(50rem) rotateY(-5deg);
+    box-shadow: 3px 1px #8080804f;
 }
 
 .nome{
