@@ -74,7 +74,8 @@
 #voltar_home{
     border: none;
     background: none;
-
+    cursor: pointer;
+    
     padding: 0;
     margin: 0;
 
