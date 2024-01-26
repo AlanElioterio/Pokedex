@@ -1,0 +1,149 @@
+.pokemon_Detail{
+    margin: 0;
+    padding: 0;
+}
+.deactive{
+    display: none;
+}
+
+.est_nome{
+    text-transform: capitalize;
+}
+
+.active{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.info_pokemon{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.detail_pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 2rem;
+    margin-top: 3rem;
+}
+
+.detalhe{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.detalhe p{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+
+}
+.detalhe h1{
+    margin: 0;
+    padding: 0;
+
+    font-size: 30px;
+}
+
+
+.imagem_pokemon{
+    display: flex;
+    width: 334px;
+    height: 100%;
+
+    align-items: center;
+    border-radius: 20px;
+    /* margin: 2rem; */
+}
+
+.imagem_pokemon img{
+    width: 100%;
+    height: auto;
+
+    /* padding: 2rem; */
+}
+
+
+#voltar_home{
+    border: none;
+    background: none;
+
+    padding: 0;
+    margin: 0;
+
+    position:fixed ;
+    top: 0%;
+    left: 0%;
+    
+    padding-left: 24px;
+    padding-top: 24px;
+    
+}
+
+#voltar_home img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.bar_progress{
+    width: 135px;
+    background-color: rgb(201, 201, 201);
+}
+
+.bar_status{
+
+    height:20px;
+}
+
+.informacoes_pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.types_info{
+    background-color: transparent;
+    padding: 10px 20px 10px 20px;
+    margin: 1rem .5rem 1rem .5rem;
+}
+
+.type_info{
+    font-size: 18px;
+
+    color: white;
+
+    padding: 10px 20px 10px 20px;
+    margin: 1rem .5rem 1rem .5rem;
+    border-radius: 20px;
+}
+
+.tbl_estatisticas{
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 992px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.tbl_estatisticas tbody .linha_est td{
+    padding: 10px;
+    padding-bottom: 3px;
+    /* width: 50%; */
+}
+
+.linha_est{
+
+    width: 100%;
+    max-width: 500px;
+}

@@ -7,7 +7,8 @@ let maxRecords = 151;
 function loadPokemonItems(offset, limit) {
 
     function criaItemHtml(pokemon){
-        return `<li class="pokemon ${pokemon.type}">
+        return `<li class="pokemon ${pokemon.type}" onClick='showDetail(this)'>
+            
             <div class="infos">
                 <span class="nome">${pokemon.name}</span>
                 <span class="numero">#${pokemon.number}</span>

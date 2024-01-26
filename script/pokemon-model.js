@@ -5,3 +5,12 @@ class Pokemon {
     types = [];
     photo;
 }
+
+class PokemonEst {
+    number;
+    name;
+    type;
+    types = [];
+    photo;
+    est = [];
+}
